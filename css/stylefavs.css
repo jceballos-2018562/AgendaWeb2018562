@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Unbounded&display=swap');
+
+body {
+    background: linear-gradient(rgb(5, 5, 95), rgb(255, 255, 255)) no-repeat;
+    font-family: 'DM Sans', sans-serif;
+    text-align: center;
+  }
+
+  .title{
+    color: #F2F2F2;
+    font-family: 'Unbounded', cursive;
+  }
+
+  #tabla {
+    margin: 50px auto;
+    width: 750px;
+}
+
+table {
+    background-color: white;
+    text-align: center;
+    border-collapse: collapse;
+    width: 100%;
+    color: rgb(5, 5, 95);
+}
+
+th, td {
+    padding: 20px;
+}
+
+thead {
+    background-color: rgb(5, 5, 95);
+    color: white;
+}
+
+  .nav-enlace {
+    display: inline-flex;
+    background: rgb(0, 0, 61);
+    color: #F2F2F2;
+    font-family: 'DM Sans', sans-serif;
+    padding: 10px 30px;
+    text-decoration: none;
+    border-radius: 3px;
+  }
+
+  .nav-enlace:hover {
+    background: rgb(0, 0, 61);;
+  }
+
+  .button {
+    color: #ffffff;
+    font-size: 10px;
+    padding: 8px;
+    text-decoration: none;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 50px;
+    background: rgb(5, 5, 95);
+    font-family: 'DM Sans', sans-serif;
+  }
+  .button:hover {
+    background: rgb(5, 5, 95);
+  }
+
+  .nav-user {
+    display: block;
+    background: rgb(255, 255, 255);
+    color: #F2F2F2;
+    padding: 7px 7px;
+    border-radius: 100px;
+    
+  }

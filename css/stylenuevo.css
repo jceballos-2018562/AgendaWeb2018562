@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Unbounded&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-color: #0e0057;
+    font-family: 'DM Sans', sans-serif;  
+  }
+
+  .title {
+    color: #0e0057;
+    font-family: 'Unbounded', cursive;
+  }
+  
+  .form-contact {
+    background: #FFF;
+    width: 400px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 7px 13px 37px rgba(0, 0, 0, .8);
+    border-radius: 10px;
+  }
+  
+  header {
+    width: 100%;
+    background: #ffffff;
+    overflow: hidden;
+    color: white;
+    border-radius: 10px;
+  }
+  
+  header span {
+    font-size: 100px;
+    display: block;
+    text-align: center;
+    padding: 2.5rem;
+  }
+  
+  .contact {
+    padding: .8rem;
+    overflow: hidden;
+    color: rgb(63, 63, 63);
+    font-family: 'DM Sans', sans-serif;
+  }
+  
+  .contact label, .contact input, .contact textarea {
+    display: block;
+    width: 100%;
+    margin-bottom: 5px;
+    font-family: 'DM Sans', sans-serif;
+  }
+  
+  .contact label {
+    font-weight: 700;
+    font-family: 'DM Sans', sans-serif;
+  }
+  
+  .contact input:not([type='submit']), .contact textarea {
+    border: none;
+    border-bottom: 2px solid #0e0057;
+    margin-bottom: 10px;
+    font-size: 20px;
+    outline: none;
+    color: rgb(63, 63, 63);
+    font-family: 'DM Sans', sans-serif;
+  }
+  
+  .contact textarea {
+    min-height: 100px;
+    font-family: 'DM Sans', sans-serif;
+  }
+  
+  input[type='submit'] {
+    padding: 10px;
+    background: #0e0057;
+    border: none;
+    color: white;
+    font-size: 20px;
+    /* pointer-events: none; */
+    cursor: pointer;
+    border-radius: 10px;
+    font-family: 'DM Sans', sans-serif;
+  }
